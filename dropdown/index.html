@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <div class="split-button">
+        <button onclick="handleMainButtonClicked()">Dashboard</button>
+        <button onclick="toggleDropdown()">
+            <span class="fa fa-chevron-down" id="chevron"></span>
+        </button>
+        <div class="menu" id="menu">
+            <button onclick="handleMenuButtonClicked()" class="col">
+                <span class="fa fa-gear"> Tools</span>
+                <span class="fa fa-building"> Build</span>
+            </button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+
+</html>
