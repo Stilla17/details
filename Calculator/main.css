@@ -1,0 +1,40 @@
+.block {
+    border-radius: 20px;
+}
+
+.block_btn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button_click {
+    border: none;
+    background-color: #212529;
+    color: white;
+    box-shadow: 5px 5px 10px lightblue inset;
+    width: 90px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.button_click:hover{
+    background-color: #2C3034;
+}
+
+.res {
+    height: 50px;
+    word-spacing: 25px;
+    background-color: #198754;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#res{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 24px;
+}
