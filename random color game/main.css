@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(126, 95, 95);
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+
+.info-game {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-game p {
+    font-size: 24px;
+}
+
+.button-flex {
+    display: flex;
+}
+
+.start {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.startGame {
+    background-color: rgb(0, 252, 46);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 13px;
+    font-size: 24px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.button-flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.color-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.button{
+    opacity: 1;
+}
